@@ -9,7 +9,7 @@ import (
 func main() {
 	word := ""
 
-	fmt.Print("A word to check palindrome: ")
+	fmt.Print("A word to check if is palindrome: ")
 	fmt.Scanln(&word)
 
 	isPalindrome := checkPalindrome(word)
